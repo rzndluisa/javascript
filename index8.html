@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pessoa = 
+        {
+            nome: "Luisa",
+            idade: 25,
+            profissao: "Desenvolvedora"
+        };
+
+        //Acessando propriedades
+        console.log(pessoa.nome);
+        console.log(pessoa["idade"]);
+
+        //Modificando propriedades
+pessoa.profissao = "Designer";
+console.log(pessoa.profissao);
+
+pessoa ["profissao"] = "Programadora!!"
+console.log(pessoa.profissao)
+
+// Adicionando novas propriedades
+pessoa.cidade = "Rio de Janeiro";
+console.log(pessoa.cidade);
+
+console.log(pessoa);
+
+    </script>
+</body>
+</html>

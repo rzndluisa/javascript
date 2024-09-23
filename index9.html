@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let frutas = ["maçã", "banana", "laranja"]; // começando do 0 e assim por diante
+
+        //Acessando elementos
+        console.log(frutas[0]);
+        console.log(frutas[2]);
+
+        //Modificando elementos
+        frutas[1] = "uva";
+        console.log(frutas);
+
+        // Adicionando elementos
+        frutas.push("kiwi");
+        console.log(frutas); // ["maçã", "uva", "laranja", "kiwi"]
+
+        // Iterando sobre um array
+        for (let listinha of frutas) {
+            console.log(listinha);
+        }
+
+
+
+    </script>
+</body>
+
+</html>
